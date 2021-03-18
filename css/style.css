@@ -344,3 +344,47 @@ width: 100%;
 	top: 10px;
 	right: 10px;
 }
+
+#cart{
+	padding: 0 15px;
+}
+#cart li{
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+#cart li img{
+	margin-right: 20px;
+	max-width: 200px;
+}
+.delete-items{
+	margin-left: 10px;
+	padding: 4px;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	width:30px;
+	height: 30px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.cart-btn{
+	position: absolute;
+	top: 5px;
+	right:76px;
+	background: rgb(0,109,183);
+}
+
+.cart-btn i{
+	background: rgb(0,109,183);
+}
+
+#ajax-contact-form{
+	max-width: 250px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.cart-input{
+	display: none;
+}
